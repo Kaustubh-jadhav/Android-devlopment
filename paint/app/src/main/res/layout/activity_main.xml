@@ -54,6 +54,50 @@
 
 
     </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/shapes_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tool_background_bottom"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/circleShape"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="●"
+        android:textSize="20dp"
+        android:background="@drawable/circle_shape"/>
+
+    <Button
+        android:id="@+id/squareShape"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="■"
+        android:background="@drawable/square_shape"/>
+
+    <Button
+        android:id="@+id/triangleShape"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="▲"
+        android:background="@drawable/triangle_shape"/>
+
+    <Button
+        android:id="@+id/lineShape"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:text="﹘"
+        android:background="@drawable/line_shape"/>
+    </LinearLayout>
 
 </RelativeLayout>
 

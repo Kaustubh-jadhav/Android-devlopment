@@ -42,15 +42,58 @@
             android:layout_margin="10dp"
             android:background="@drawable/white_background"/>
 
+
     </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/toolbar">
-        <include layout="@layout/paint_view"/>
 
+        <include layout="@layout/paint_view" />
     </RelativeLayout>
 
+    <LinearLayout
+        android:id="@+id/toolbottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
 
+
+        <Button
+            android:id="@+id/sa"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="10"
+
+            />
+
+        <Button
+            android:id="@+id/sb"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="20"
+            />
+
+        <Button
+            android:id="@+id/sc"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="30"
+            />
+
+        <Button
+            android:id="@+id/sd"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:text="40"
+           />
+    </LinearLayout>
 
 </RelativeLayout>
